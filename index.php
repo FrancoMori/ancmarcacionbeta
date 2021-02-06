@@ -37,7 +37,10 @@
       <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
       <span class="result"><i class="icon fa fa-warning"></i> <span class="message"></span></span>
     </div>
-  		
+  	<div id="my_camera"></div>
+    <input type=button value="Take Snapshot" onClick="take_snapshot()">
+    
+    <div id="results" ></div>
 </div>
 	
 <?php include 'scripts.php' ?>
